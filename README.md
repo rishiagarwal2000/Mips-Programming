@@ -32,9 +32,80 @@ The intention of sharing the code is to help beginners like me to get started wi
 
 ### Examples
 The examples implemented are:
-* Finding the k-th largest value in an array
-* Finding the modulus of a number w.r.t another number
-* Computing the gcd of two numbers
+ 
+<details close="close">
+<summary>
+Finding the k-th largest value in an array
+</summary>
+A MIPS assembly program which does the following:
+It accepts the following inputs: 
+
+* _n_ (number of integers)
+* _arr_  –  a list of n integers (to be stored in the data segment of your program
+* _k_  –  a “small” positive integer
+Program finds the kth largest value in the list and outputs it. 
+
+Note that what’s computed is the kth largest value, not the value of the kth largest integer.
+
+A sample run is shown below.
+
+Program: <span style="color:blue;">Enter No. of integers in list</span><br>
+User: 12 <br>
+Program: <span style="color:blue;">Enter list</span> <br>
+User: 5,  9,  -11,  27,  3,  -2,  8,  305,  27,  15,  -7,  0 <br>
+Program: <span style="color:blue;">Enter k (a  positive integer)</span> <br>
+User: 3 <br>
+Program: <span style="color:blue;">15</span> <br>
+
+Input constraints: 1<=n<=50 and 1<=k<=5.
+
+Output by the program is in <span style="color:blue;">​blue color​</span>.
+</details>
+
+<details close="close">
+<summary>
+Finding the modulus of a number w.r.t another number
+</summary>
+A MIPS program to do the following:
+
+* The program should input an ​integer​ of at most 4 decimal digits – this is the modulus, ​n​.
+* The program should input a ​string​ of 12 ​decimal​ digits (most significant digit first). This represents a 12-digit integer(padded with 0s, if needed). Call it ​_a_​.
+* The program computes ​_a​ mod ​n_​ and displays this value on the screen (result is between 0 and n-1,  i.e., _0  ≤  a mod n  ≤  n-1_). Program prompts the user for input as shown below.
+* Program includes a couple of subroutines. 
+* Constraints:​ _n>=1_, integer represented by _a>=0_.
+Sample run:<br>
+<span style="color:blue;">Enter modulus:</span>​ 1000 <br>
+<span style="color:blue;">Enter string of 12 decimal digits:</span> 123456789012 <br>
+<span style="color:blue;">123456789012 mod 1000 = 12 </span><br>
+<span style="color:blue;">Wish to continue?: </span> ​Y <br>
+<span style="color:blue;">Enter modulus: </span>​​25 <br>
+<span style="color:blue;">Enter string of 12 decimal digits: ​</span>​246801357988 <br>
+<span style="color:blue;">246801357988 mod 25 = 13</span> <br>
+<span style="color:blue;">Wish to continue?: </span>​N <br>
+
+Output of the program is in ​<span style="color:blue;">blue color</span>.​
+</details>
+
+<details close="close">
+<summary>
+Computing the gcd of two numbers
+</summary>
+The gcd is the greatest common divisor or common factor shared by two integers. For example, gcd(210, 112) = 14.
+
+The program prompts the user for two integer inputs _m_ and _n_ and then prints the value of _gcd(m,n)_.
+
+Constraints:​ m,n >= 1.
+Sample run: <br>
+<span style="color:blue;">Enter m: </span>​​210 <br>
+<span style="color:blue;">Enter n: </span>​​112 <br>
+<span style="color:blue;">gcd(210,112) = 14 </span><br>
+<span style="color:blue;">Wish to continue?:​</span> Y <br>
+<span style="color:blue;">Enter ​​m:​ ​</span>462 <br>
+<span style="color:blue;">Enter ​​n:​​ </span>363 <br>
+<span style="color:blue;">gcd(462,363) = 33 </span><br>
+<span style="color:blue;">Wish to continue?:​</span> N <br>
+Output by the program is in <span style="color:blue;">​blue color​</span>.
+</details>
 
 ### Built With
 
