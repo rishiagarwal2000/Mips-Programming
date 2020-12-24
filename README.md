@@ -59,7 +59,7 @@ Program: _15_ <br>
 
 Input constraints: 1<=n<=50 and 1<=k<=5.
 
-Output by the program is in _​italics​_.
+Output by the program is in *​italics​*.
 </details>
 
 <details close="close">
@@ -74,16 +74,16 @@ A MIPS program to do the following:
 * Program includes a couple of subroutines. 
 * Constraints:​ _n>=1_, integer represented by _a>=0_.
 Sample run:<br>
-_Enter modulus:_​ 1000 <br>
+*Enter modulus:* 1000 <br>
 _Enter string of 12 decimal digits:_ 123456789012 <br>
-_123456789012 mod 1000 = 12 _<br>
-_Wish to continue?: _ ​Y <br>
-_Enter modulus: _​​25 <br>
-_Enter string of 12 decimal digits: ​_​246801357988 <br>
+_123456789012 mod 1000 = 12_<br>
+_Wish to continue?:_ ​Y <br>
+_Enter modulus:_ ​​25 <br>
+_Enter string of 12 decimal digits:​_ ​246801357988 <br>
 _246801357988 mod 25 = 13_ <br>
-_Wish to continue?: _​N <br>
+_Wish to continue?:_ ​N <br>
 
-Output of the program is in ​_italics_.​
+Output of the program is in ​*italics*.​
 </details>
 
 <details close="close">
@@ -96,13 +96,13 @@ The program prompts the user for two integer inputs _m_ and _n_ and then prints 
 
 Constraints:​ m,n >= 1.
 Sample run: <br>
-_Enter m: _​​210 <br>
-_Enter n: _​​112 <br>
-_gcd(210,112) = 14 _<br>
+_Enter m:_ ​​210 <br>
+_Enter n:_ ​​112 <br>
+_gcd(210,112) = 14_<br>
 _Wish to continue?:​_ Y <br>
-_Enter ​​m:​ ​_462 <br>
-_Enter ​​n:​​ _363 <br>
-_gcd(462,363) = 33 _<br>
+_Enter ​​m:​_ 462 <br>
+_Enter ​​n:​​_ 363 <br>
+_gcd(462,363) = 33_<br>
 _Wish to continue?:​_ N <br>
 Output by the program is in _​italics​_.
 </details>
