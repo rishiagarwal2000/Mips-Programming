@@ -49,17 +49,17 @@ Note that what’s computed is the kth largest value, not the value of the kth l
 
 A sample run is shown below.
 
-Program: <span style="color:blue;">Enter No. of integers in list</span><br>
+Program: _Enter No. of integers in list_<br>
 User: 12 <br>
-Program: <span style="color:blue;">Enter list</span> <br>
+Program: _Enter list_ <br>
 User: 5,  9,  -11,  27,  3,  -2,  8,  305,  27,  15,  -7,  0 <br>
-Program: <span style="color:blue;">Enter k (a  positive integer)</span> <br>
+Program: _Enter k (a  positive integer)_ <br>
 User: 3 <br>
-Program: <span style="color:blue;">15</span> <br>
+Program: _15_ <br>
 
 Input constraints: 1<=n<=50 and 1<=k<=5.
 
-Output by the program is in <span style="color:blue;">​blue color​</span>.
+Output by the program is in _​italics​_.
 </details>
 
 <details close="close">
@@ -74,16 +74,16 @@ A MIPS program to do the following:
 * Program includes a couple of subroutines. 
 * Constraints:​ _n>=1_, integer represented by _a>=0_.
 Sample run:<br>
-<span style="color:blue;">Enter modulus:</span>​ 1000 <br>
-<span style="color:blue;">Enter string of 12 decimal digits:</span> 123456789012 <br>
-<span style="color:blue;">123456789012 mod 1000 = 12 </span><br>
-<span style="color:blue;">Wish to continue?: </span> ​Y <br>
-<span style="color:blue;">Enter modulus: </span>​​25 <br>
-<span style="color:blue;">Enter string of 12 decimal digits: ​</span>​246801357988 <br>
-<span style="color:blue;">246801357988 mod 25 = 13</span> <br>
-<span style="color:blue;">Wish to continue?: </span>​N <br>
+_Enter modulus:_​ 1000 <br>
+_Enter string of 12 decimal digits:_ 123456789012 <br>
+_123456789012 mod 1000 = 12 _<br>
+_Wish to continue?: _ ​Y <br>
+_Enter modulus: _​​25 <br>
+_Enter string of 12 decimal digits: ​_​246801357988 <br>
+_246801357988 mod 25 = 13_ <br>
+_Wish to continue?: _​N <br>
 
-Output of the program is in ​<span style="color:blue;">blue color</span>.​
+Output of the program is in ​_italics_.​
 </details>
 
 <details close="close">
@@ -96,15 +96,15 @@ The program prompts the user for two integer inputs _m_ and _n_ and then prints 
 
 Constraints:​ m,n >= 1.
 Sample run: <br>
-<span style="color:blue;">Enter m: </span>​​210 <br>
-<span style="color:blue;">Enter n: </span>​​112 <br>
-<span style="color:blue;">gcd(210,112) = 14 </span><br>
-<span style="color:blue;">Wish to continue?:​</span> Y <br>
-<span style="color:blue;">Enter ​​m:​ ​</span>462 <br>
-<span style="color:blue;">Enter ​​n:​​ </span>363 <br>
-<span style="color:blue;">gcd(462,363) = 33 </span><br>
-<span style="color:blue;">Wish to continue?:​</span> N <br>
-Output by the program is in <span style="color:blue;">​blue color​</span>.
+_Enter m: _​​210 <br>
+_Enter n: _​​112 <br>
+_gcd(210,112) = 14 _<br>
+_Wish to continue?:​_ Y <br>
+_Enter ​​m:​ ​_462 <br>
+_Enter ​​n:​​ _363 <br>
+_gcd(462,363) = 33 _<br>
+_Wish to continue?:​_ N <br>
+Output by the program is in _​italics​_.
 </details>
 
 ### Built With
